@@ -115,7 +115,7 @@ describe('Circularity', function() {
             expect(circles.length).to.be.at.least(5);
         });
     });
-
+            
     describe('TODO 4: should update the position of all 5 circles', function() {
         beforeEach(function() {
             sinon.spy(physikz, "updatePosition");
